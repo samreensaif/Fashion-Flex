@@ -2,7 +2,7 @@ export const cardData = [
     {
         id: 1,
         backgroundColor: "#9e9e9f",
-        img:"/Model1A.png",
+        img:"/model1A.png",
         title: "Hoodies & Sweatshirts",
         price:"$65.22",
         rating:2,
@@ -11,7 +11,7 @@ export const cardData = [
     {
         id: 2,
         backgroundColor: "#8569a4",
-        img:"/Model2A.png",
+        img:"/model2A.png",
         title: "Coats & Parkas",
         price:"$13.24",
         rating:3,
@@ -19,7 +19,7 @@ export const cardData = [
     {
         id: 3,
         backgroundColor: "#93cfcf",
-        img:"/Model3A.png",
+        img:"/model3A.png",
         title: "Tees & T-Shirts",
         price:"$19.96",
         rating:4,
@@ -27,7 +27,7 @@ export const cardData = [
     {
         id: 4,
         backgroundColor: "#819ab3",
-        img:"/Model4A.png",
+        img:"/model4A.png",
         title: "Sleeveless Hoodies",
         price:"$26.11",
         rating:3,
@@ -35,7 +35,7 @@ export const cardData = [
     {
         id: 5,
         backgroundColor: "#edbac2",
-        img:"/Model5A.png",
+        img:"/model5A.png",
         title: "Henley shirts",
         price:"$23.22",
         rating:5
@@ -43,7 +43,7 @@ export const cardData = [
     {
         id: 6,
         backgroundColor: "#c2d09b",
-        img:"/Model6A.png",
+        img:"/model6A.png",
         title: "Crewneck & Sweaters",
         price:"$10.99",
         rating:4,
@@ -51,7 +51,7 @@ export const cardData = [
     {
         id: 7,
         backgroundColor: "#A45A03",
-        img:"/Model20.png",
+        img:"/model20.png",
         title: "Graphic tees",
         price:"$65.12",
         rating:4,
@@ -59,7 +59,7 @@ export const cardData = [
     {
         id: 8,
         backgroundColor: "#232C33",
-        img:"/Model8.png",
+        img:"/model8.png",
         title: "Crewneck & Sweaters",
         price:"$11.76",
         rating:3,
@@ -67,7 +67,7 @@ export const cardData = [
     {
         id: 9,
         backgroundColor: "#71ACD7",
-        img:"/Model10.png",
+        img:"/model10.png",
         title: "Polo Shirts",
         price:"$45.21",
         rating:3,
@@ -75,7 +75,7 @@ export const cardData = [
     {
         id: 10,
         backgroundColor: "#E0E3E8",
-        img:"/Model11.png",
+        img:"/model11.png",
         title: "Cardigans",
         price:"$20.03",
         rating:2,
@@ -83,7 +83,7 @@ export const cardData = [
     {
         id:11,
         backgroundColor: "#F5B31E",
-        img:"/Model12.png",
+        img:"/model12.png",
         title: "V-Neck Sweaters",
         price:"$33.32",
         rating:4,
@@ -91,7 +91,7 @@ export const cardData = [
     {
         id: 12,
         backgroundColor: "#F8989C",
-        img:"/Model13.png",
+        img:"/model13.png",
         title: "Zip-Up Hoodies",
         price:"$18.77",
         rating:5,
@@ -99,7 +99,7 @@ export const cardData = [
     {
         id: 13,
         backgroundColor: "#03988E",
-        img:"/Model14.png",
+        img:"/model14.png",
         title: "Flannel Shirts",
         price:"$17.77",
         rating:3,
@@ -107,7 +107,7 @@ export const cardData = [
     {
         id: 14,
         backgroundColor: "#EEAAB7",
-        img:"/Model15.png",
+        img:"/model15.png",
         title: "Long-sleeve t-shirts",
         price:"$29.77",
         rating:2,
@@ -115,7 +115,7 @@ export const cardData = [
     {
         id: 15,
         backgroundColor: "#FFD10F",
-        img:"/Model16.png",
+        img:"/model16.png",
         title: "Tank Tops",
         price:"$30.77",
         rating:1,
@@ -123,7 +123,7 @@ export const cardData = [
     {
         id: 16,
         backgroundColor: "#2EBBED",
-        img:"/Model17.png",
+        img:"/model17.png",
         title: "Puffer Vest",
         price:"$41.77",
         rating:3,
