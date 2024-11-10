@@ -1,0 +1,29 @@
+.shoptop{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+.newArrival{
+    width: 100%;
+    height: 100px;
+     display: flex;
+    
+     position: relative;
+    
+}
+
+.newArrival h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.newArrival .feather{
+    position: absolute;
+    left:21.25rem;
+    top:.625rem;
+    z-index: -1;    
+}

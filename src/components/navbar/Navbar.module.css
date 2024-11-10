@@ -1,0 +1,137 @@
+.nav{
+    width:1196px;
+    height: 96px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    
+}
+.nav .logo{
+    width:386px;
+    height: 96px;
+    display:flex;
+    }
+.nav .logo h1{
+    font-size: 40px;
+    margin:auto;
+    text-align:center;
+    color: #000000;
+}
+
+ .links{
+    width: 43.75rem;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 0rem;
+    
+    
+}
+
+ .links ul{
+    display:flex;
+    align-items: center;
+    height: 100%;
+    gap:5rem;
+    
+}
+
+ .links ul li{
+    font-size: 20px;
+    
+    text-align: center;
+    color: #000000;
+    &:hover{
+        text-decoration: underline;
+        text-decoration-thickness: .1875rem;
+        font-weight: 500;
+    }
+}
+
+.links button{
+    width: 97px;
+    height:36px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:2px solid #000000;
+    &:hover{
+        background-color: #EBD96B;
+        font-weight: 500;
+    }
+}
+
+.menu{
+    display:none;
+    margin-top:10px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+
+
+    .links{
+        display:none;
+    }
+
+    .menu{
+        display:block;
+    }
+
+    .nav .logo{
+        margin-left: 30px;
+    }
+
+
+    .adjust{
+        
+        position: absolute;
+        top: 96px;
+        right: 0;
+        width: 50%;
+        height:432px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0rem .5rem 1rem 0rem rgba(0,0,0,0.2);
+        z-index: 10000;
+        backdrop-filter: grayscale(100%) blur(5px); /* Applies a full grayscale and a 5-pixel blur */
+        background-color: rgba(255, 255, 255, 0.7)
+       
+    }
+
+    .adjust ul{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        margin-bottom: 32px;
+        
+    }
+    .adjust ul li{
+        font-size: 30px; 
+        font-weight: 600;
+    }
+
+    .adjust button{
+        width: 150px;
+        height:50px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 10px;
+        margin-bottom:20px;
+        border:.125rem solid #000000;
+        &:hover{
+            background-color: #EBD96B;
+            font-weight: 600;
+        }
+    }
+}

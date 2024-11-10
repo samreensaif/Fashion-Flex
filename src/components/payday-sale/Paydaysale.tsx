@@ -1,0 +1,65 @@
+import React from 'react'
+import style from './Paydaysale.module.css'
+import Image from 'next/image'
+
+function Paydaysale() {
+  return (
+    <div>
+        <div className={style.sale}>
+          <div className={style.saleImageDiv}>
+            <Image
+              src="/yellowModelU.png"
+              alt="yellowModel"
+              width={208}
+              height={480}
+              className={style.saleImage}
+            ></Image>
+            <div className={style.star1}>
+              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+            </div>
+            <div className={style.star2}>
+              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+            </div>
+            <div className={style.star3}>
+              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+            </div>
+            <div className={style.star4}>
+              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+            </div>
+          </div>
+
+          <div className={style.saleTextDiv}>
+            <div className={style.text}>
+              <div className={style.let1}>
+                <div className={style.let}>
+                  <h1>PAYDAY</h1>
+                </div>
+              </div>
+              <div>
+                <h1 className={style.snow}>SALE NOW</h1>
+              </div>
+            </div>
+            <div className={style.saleParaDiv}>
+              <div className={style.salePara}>
+                <p className={style.para1}>
+                  Spend minimal $100 get 30% off <br />
+                  voucher code for your next purchase
+                </p>
+
+                <p className={style.para2}>1st June - 10 une 2021</p>
+
+                <p>*Terms and conditions applied</p>
+              </div>
+              <div className={style.btn}>
+                <button>SHOP NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+    </div>
+  )
+}
+
+export default Paydaysale

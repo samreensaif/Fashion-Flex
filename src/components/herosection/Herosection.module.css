@@ -1,0 +1,275 @@
+
+.hero{
+    width: 100%;
+    /* height:723px; */
+    /* background-color: aquamarine; */
+}
+
+.container{
+    width: 74.75rem;
+    height: 37.6875rem;
+    margin: auto;
+    background-color: #f4f6f5;
+    margin-top: 3.9375rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.hero .leftcontent{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.hero .leftcontent .line{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+    padding-left:118px;
+}
+
+.hero .leftcontent h1{
+    font-size: 50px;
+    
+    color: #000000;
+    font-weight: 700;
+}
+
+.hero .leftcontent .let{
+    width:230px;
+    height:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    text-align: left;
+    transform: rotate(-5deg);
+    z-index:1;
+    
+}
+
+.hero .leftcontent .let .let1 h1{
+    margin-left:-50px;
+}
+.hero .leftcontent .unique{
+    width:270px;
+    height:90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e6c744;
+    text-align: left;
+    transform: rotate(-5deg);
+}
+.hero .leftcontent .unique1{
+    transform: rotate(5deg);
+}
+.hero .leftcontent .let1{
+    transform: rotate(5deg);
+}
+
+.hero .leftcontent .unique .unique1 h1{
+    margin-left:-30px;
+}
+
+.paraBtn .para p{
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top:31px;
+   
+}
+
+.paraBtn{
+    margin-left: 0px;
+}
+
+.hero .rightcontent{
+    width:50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position:relative;  
+    
+}
+
+.hero .rightcontent .star1{
+    position: absolute;
+    top:50px;
+    right:150px;
+    
+    
+}
+.hero .rightcontent .star2{
+    position: absolute;
+    top:150px;
+    left:0px;
+   
+}
+.hero .rightcontent .star3{
+    position: absolute;
+    bottom:50px;
+    left:20px;
+   
+    
+}
+.hero .rightcontent .star4{
+    position: absolute;
+    bottom:50px;
+    right:60px;
+  
+    
+}
+
+.leftcontent .btn{
+    width: 120px;
+    height:36px;
+    font-size: 15px;
+    font-weight: 500;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    
+    border-radius: 10px;
+    border:3px solid #000000;
+    &:hover{
+        background-color: #EBD96B;
+        font-weight: 500;
+    }
+}
+
+.hero .bottom{
+    width: 100%;
+    height:130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #EBD96B ;
+    margin-top: 63px;
+    
+}
+
+
+@media (max-width: 768px) {
+
+    .container{
+        flex-direction: column-reverse;
+        
+    }
+
+    .hero .leftcontent{
+   
+        display: flex;
+        width:100%;
+        
+        align-items: center;
+        justify-content:center;
+        
+    }
+    
+
+    .hero .container  .leftcontent .line{
+       
+        flex-direction: row;
+        
+        justify-content: center;
+        gap:4%;
+        padding-right: 6%;
+        
+       
+    }
+    .hero .leftcontent  .paraBtn{
+        
+        display:flex;
+        flex-direction: column;
+        /* margin-left: 10%; */
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        gap:20px;
+        
+        
+    }
+    .hero .leftcontent h1{
+        font-size: 40px;
+       
+    }
+
+    
+    .hero .leftcontent .let{
+        width:150px;
+        height:60px;
+        text-align: center;
+        
+    }
+
+
+    .hero .leftcontent .let .let1 h1{
+        margin-left:0px;
+    }
+    .hero .leftcontent .unique{
+        width:180px;
+        height:60px;
+        text-align: center;
+    }
+
+    .hero .leftcontent .unique .unique1 h1{
+        margin-left:0px;
+    }
+    
+
+     .paraBtn .para p{
+        width:100%;
+        text-align: center;
+        font-size: 18px;
+        
+        margin-top:10px;
+        margin-left:0;
+    }
+
+    .paraBtn .btn{
+        width: 110px;
+        height:40px;
+        padding:0px 10px;
+        font-size: 16px;
+        font-weight: 400;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:0px;
+        margin-right:0px;
+        margin-bottom:10px;
+        
+        
+    }
+    
+    .hero .rightcontent{
+        width:100%;
+       
+        display: flex;
+        justify-content: center;
+       
+        position:static;  
+        
+    }
+    
+
+    .hero .rightcontent .star1,.hero .rightcontent .star2,.hero .rightcontent .star3,.hero .rightcontent .star4{
+        display: none;  }
+
+}
+

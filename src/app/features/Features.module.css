@@ -1,0 +1,215 @@
+
+
+
+.features{
+    width:100%;
+   top:100px;
+}
+
+.container{
+    width:1196px;
+    margin:auto;
+    height:auto;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 63px;
+}
+
+.youngsFavourite{
+    width: 100%;
+    height: 100px;
+     display: flex;
+     position: relative;
+       
+    
+}
+
+.youngsFavourite h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.youngsFavourite .feather{
+    position: absolute;
+    left:280px;
+    top:.625rem;
+    z-index: -1;    
+}
+
+.card{
+    width:100%;
+    height: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card .card1{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.card .card2{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.card .card1 .content{
+    width:100%;
+    height:66px;
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.card .card1 .content h3{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.card .card1 .content p{
+    font-size: 14px;
+    
+}
+
+.card .card1 .content img{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    width:170px;
+    
+}
+
+
+.card1 .card1Image,.card2 .card1Image{
+
+transition:all 1s ease;
+&:hover{
+    transform: scale(1.1);
+}
+}
+.card .card2 .content{
+    width:100%;
+    height:66px;
+    align-items: flex-start;
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.card .card2 .content h3{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.card .card2 .content p{
+    font-size: 14px;
+    
+}
+
+.card .card2 .content img{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    width:170px;
+}
+
+
+@media (max-width: 768px) {
+
+
+    .youngsFavourite{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        position: relative;
+        z-index: -100;
+        align-items: center;
+        justify-content: center ;
+        
+        
+    }
+    
+    .youngsFavourite h1{
+        font-size: 2rem;
+        font-weight: bold;
+        
+    }
+    
+    .youngsFavourite .feather{
+        position: absolute;
+        left:730px;
+        top:30px;
+        z-index: 0; 
+        width:50px;
+        height: 50px;   
+    }
+
+
+
+    .card{
+        flex-direction: column;
+    }
+    
+    .card .card1{
+        flex-direction: column;
+    }
+    
+    
+    .card1 .card1Image, .card2 .card1Image{
+
+        width:70%;
+        height:70%;
+    }
+    .card .card1 .content,.card .card2 .content{
+        
+        align-items: center;
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        margin-top:30px;
+        margin-left:0px;
+       
+    }
+    
+    .card .card1 .content h3,.card .card2 .content h3{
+        font-size: 18px;
+        font-weight: 500;
+        
+    }
+    
+    .card .card1 .content .arrow,.card .card2 .content .arrow{
+        width:100px;
+        top:30px;
+        right:250px;
+        
+    }
+
+    .card{
+       
+        height: 700px;
+        }
+
+}
