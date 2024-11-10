@@ -13,18 +13,18 @@ function Paydaysale() {
               width={208}
               height={480}
               className={style.saleImage}
-            ></Image>
+            />
             <div className={style.star1}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star2}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star3}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star4}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
           </div>
 

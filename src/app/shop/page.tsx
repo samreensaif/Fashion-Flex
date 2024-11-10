@@ -26,7 +26,7 @@ function Shop() {
               alt="featherImage"
               width={68}
               height={68}
-            ></Image>
+            />
           </div>
           <div className={style.board}>
             <Image src="/board.png" alt="boardImage" width={93} height={93} />

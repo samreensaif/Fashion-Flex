@@ -17,7 +17,7 @@ function Shoptop() {
               alt="featherImage"
               width={68}
               height={68}
-            ></Image>
+            />
           </div>
         </div>
         <ProductSection/>

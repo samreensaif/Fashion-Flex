@@ -15,7 +15,7 @@ const data =cardData.find((item) => {return(item.id == props.cardId)
 
                 <div className={style.imageDiv} style={{backgroundColor:data?.backgroundColor}}>
 
-                        <Image src={data!.img} alt="models" width={300} height={400} className={style.img}></Image> 
+                        <Image src={data!.img} alt="models" width={300} height={400} className={style.img}/> 
                 </div>
 
 

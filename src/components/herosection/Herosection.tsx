@@ -43,45 +43,45 @@ function Herosection() {
               width={504}
               height={450}
               priority
-            ></Image>
+            />
             <div className={style.star1}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star2}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star3}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
             <div className={style.star4}>
-              <Image src="/star.png" alt="star" width={35} height={30} ></Image>
+              <Image src="/star.png" alt="star" width={35} height={30} />
             </div>
           </div>
         </div>
         <div className={style.bottom}>
           
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/hm.png" alt="hm" width={100} height={72} ></Image>
+            <Image src="/hm.png" alt="hm" width={100} height={72} />
           </div>
             
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/obey.png" alt="hm" width={112} height={39} ></Image>
+            <Image src="/obey.png" alt="hm" width={112} height={39} />
           </div>
           
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/shopify.png" alt="hm" width={148} height={44} ></Image>
+            <Image src="/shopify.png" alt="hm" width={148} height={44} />
           </div>
             
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/lacost.png" alt="hm" width={110} height={140} ></Image>
+            <Image src="/lacost.png" alt="hm" width={110} height={140} />
           </div>
 
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/levi.png" alt="hm" width={98} height={43} ></Image>
+            <Image src="/levi.png" alt="hm" width={98} height={43} />
           </div>
 
           <div style={{ width: 'auto', height: 'auto' }}>
-            <Image src="/amazon.png" alt="hm" width={119} height={36} ></Image>
+            <Image src="/amazon.png" alt="hm" width={119} height={36} />
           </div>
             
 

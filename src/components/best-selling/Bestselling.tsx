@@ -41,7 +41,7 @@ function Bestselling() {
                       width={224}
                       height={381}
                       className={style.cardImg}
-                    ></Image>
+                    />
                   </div>
 
                   <div
@@ -56,7 +56,7 @@ function Bestselling() {
                       width={50}
                       height={0}
                       className={style.arrow}
-                    ></Image>
+                    />
                   </div>
                 </div>
               );

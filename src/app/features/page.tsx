@@ -19,7 +19,7 @@ function Features() {
                 alt="featherImage"
                 width={68}
                 height={68}
-              ></Image>
+              />
             </div>
           </div>
 
@@ -33,12 +33,12 @@ function Features() {
                             width={554}
                             height={382}
                         
-                        ></Image>
+                        />
                     </div>
                     <div className={style.content} style={{ fontFamily: poppins.style.fontFamily }}>
                         <h3>Trending on Instagam</h3>
                         <p>Explore Now!</p>
-                        <Image src="/arrowF.png" alt="arrow" width={123} height={20} className={style.arrow}></Image>
+                        <Image src="/arrowF.png" alt="arrow" width={123} height={20} className={style.arrow}/>
                     </div>
 
             </div>
@@ -50,12 +50,12 @@ function Features() {
                             width={554}
                             height={382}
                         
-                        ></Image>
+                        />
                     </div>
                     <div className={style.content} style={{ fontFamily: poppins.style.fontFamily }}>
                         <h3>All under $40</h3>
                         <p>Explore Now!</p>
-                        <Image src="/arrowF.png" alt="arrow" width={123} height={20} className={style.arrow}></Image>
+                        <Image src="/arrowF.png" alt="arrow" width={123} height={20} className={style.arrow}/>
                     </div>
 
             </div>
