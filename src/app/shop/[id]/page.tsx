@@ -15,7 +15,7 @@ const {id}= await params
         <Productdetailes cardId={id}/>
 
 
-        <div style={{marginBottom:"100px", width:"1199px", margin:"auto"}}>
+        <div style={{marginBottom:"130px", width:"1199px", margin:"auto"}}>
         <Bestselling/>
         </div>
     </div>

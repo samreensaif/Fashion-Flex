@@ -1,5 +1,5 @@
 .product{
-    width:1196px;
+    width:74.75rem;
     height:500px;
     margin:auto;
     
@@ -51,6 +51,7 @@
     display:flex;
     gap:20px;
     margin-top:20px;
+    
 }
 
 .cartDiv input{
@@ -66,13 +67,28 @@
 }
 
 .cartDiv button{
-    width:150px;
-    height:100%;
+    width:200px;
+    height:70%;
     background-color: #e6c744;
+    padding: 2px 0px;
     color:black;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight: 400;
     border: none;
     outline:none;
     border-radius: 6px;
+}
+
+ .smallBtn{
+
+    width:200px;
+    height:70px;
+    display: flex;
+    
+    gap:4px;
+}
+
+.miniBtn{
+    display: flex;
+    gap:4px;
 }
