@@ -1,8 +1,9 @@
 
 
 .embla{
-    margin-top:100px;
+margin-top:100px;
   overflow: hidden;
+  margin-bottom: 100px;
   }
 .embla__container {
   display: flex;
