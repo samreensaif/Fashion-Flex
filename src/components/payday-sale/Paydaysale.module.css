@@ -74,7 +74,7 @@
     margin-right:120px;
     transform: rotate(5deg);
 }
- .text  h1{
+ .text .let1 h1{
     font-size: 64px;
     
     color: #000000;
@@ -195,7 +195,7 @@
        
         
     }
-     .text  h1{
+     .text .let2 h1{
         font-size: 50px;
         color: #000000;
         font-weight: 700;
@@ -297,7 +297,7 @@
         color: #000000;
         font-weight: 700;
         margin-right:10px;
-        background-color: aqua;
+        
     }
     
     .text .let{
@@ -316,6 +316,10 @@
     margin-right:0px;
    
     
+}
+
+.text .let2 h1{
+    font-size: 38px;
 }
 
 

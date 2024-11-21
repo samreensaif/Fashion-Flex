@@ -36,7 +36,7 @@ function Paydaysale() {
                   <h1>PAYDAY</h1>
                 </div>
               </div>
-              <div>
+              <div className={style.let2}>
                 <h1 className={style.snow}>SALE NOW</h1>
               </div>
             </div>
@@ -47,7 +47,7 @@ function Paydaysale() {
                   voucher code for your next purchase
                 </p>
 
-                <p className={style.para2}>1st June - 10 une 2021</p>
+                <p className={style.para2}>1st June - 10 June 2021</p>
 
                 <p>*Terms and conditions applied</p>
               </div>
