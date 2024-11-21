@@ -1,5 +1,9 @@
 
-
+.contactDivMain{
+    width:100%;
+    margin:auto;
+    
+}
 .contactDiv{
     width:100%;
     
@@ -109,8 +113,27 @@
         bottom:45px;
         
     }
+}
     
+@media (max-width: 480px) {
+
+
     
+    .contactDiv{
+        padding:40px 20px;
+        z-index: -1;
+    }
+    .contactDiv button{
+        width: 125px;
+        height:35px;
+       
+        font-size: 16px;
+        
+        left:270px;
+        bottom:48px;
+        
+    }
+
 
 
 }
@@ -118,8 +141,10 @@
 
     
     .contactDiv{
-        padding:40px 20px;
+       
+        padding:80px 20px;
         z-index: -1;
+        
     }
 
    
@@ -152,8 +177,9 @@
        
         font-size: 16px;
         
-        left:90px;
+        left:120px;
         bottom:0px;
+        
         
     }
     

@@ -81,7 +81,7 @@
     display:none;
     margin-top:10px;
     cursor:pointer;
-    margin-right: 10px;
+    margin-right: 25px;
 }
 
 @media (max-width: 768px) {
@@ -98,7 +98,7 @@
     }
 
     .nav .logo{
-        margin-left: 30px;
+        margin-left: 25px;
     }
     .nav .logo img{
         width: 70px;
@@ -140,7 +140,7 @@
         
     }
     .adjust ul li{
-        font-size: 30px; 
+        font-size: 25px; 
         font-weight: 600;
     }
 

@@ -79,7 +79,11 @@
     
     color: #000000;
     font-weight: 700;
-    margin-right:200px;
+    margin-right:100px;
+}
+.let2 .snow{
+    font-size: 64px;
+    font-weight: bolder;
 }
 
 .text .let{
@@ -103,6 +107,7 @@
 
 .text .snow{
     margin-left: 60px;
+    
 }
 
 .saleTextDiv .salePara{
