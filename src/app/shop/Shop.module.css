@@ -1,19 +1,19 @@
 
 
 .shop{
-    width:74.75rem;    
-    margin-bottom: 120px;
+    width:90%;    
+    margin-bottom: 7.5rem;
     margin:auto;
     height:auto;
-    margin-top: 63px;
+    margin-top: 3.9375rem;
+    
     
 }
 
 .newArrival{
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
      display: flex;
-    
      position: relative;
     
 }
@@ -38,9 +38,9 @@
 
 .sale{
 
-    margin-top: 100px;
+    margin-top: 6.25rem;
     width: 100%;
-    height: 685px;
+    height: 42.8125rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,34 +58,34 @@
 
 .saleImageDiv .star1{
     position: absolute;
-    top:80px;
-    right:120px;
+    top:5rem;
+    right:7.5rem;
     
 }
 .saleImageDiv .star2{
     position: absolute;
-    top:110px;
-    left:90px;
+    top:6.875rem;
+    left:5.625rem;
     
 }
 .saleImageDiv .star3{
     position: absolute;
-    bottom:100px;
-    left:130px;
+    bottom:6.25rem;
+    left:8.125rem;
     
 }
 .saleImageDiv .star4{
     position: absolute;
-    bottom:150px;
-    right:160px;
+    bottom:9.375rem;
+    right:10rem;
     
 }
 
 
 .saleImage{
     
-    height:500px;
-    width:550px;
+    height:31.25rem;
+    width:34.375rem;
     
     
 }
@@ -102,32 +102,32 @@
 
 
  .text .let h1{
-    font-size: 64px;
+    font-size: 4rem;
     
     color: #000000;
     font-weight: 700;
-    margin-right:120px;
+    margin-right:7.5rem;
     transform: rotate(5deg);
 }
  .text  h1{
-    font-size: 64px;
+    font-size: 4rem;
     
     color: #000000;
     font-weight: 700;
-    margin-right:200px;
+    margin-right:12.5rem;
 }
 
 .text .let{
-    width:342px;
-    height:105px;
+    width:21.375rem;
+    height:6.5625rem;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding-left:60px;  
+    padding-left:3.75rem;  
     
     transform: rotate(-10deg);
-    margin-left:40px;
+    margin-left:2.5rem;
     
 }
 .text .let1{
@@ -137,42 +137,42 @@
 
 
 .text .snow{
-    margin-left: 60px;
+    margin-left: 3.75rem;
 }
 
 .saleTextDiv .salePara{
-    font-size: 16px;
+    font-size: 1rem;
     
     color: #000000;
     text-align: left;
-    margin-top: 20px;
-    margin-right:200px;
+    margin-top: 1.25rem;
+    margin-right:12.5rem;
     
 }
 
 .saleTextDiv .salePara .para1{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom:30px;
+    margin-bottom:1.875rem;
 }
 .saleTextDiv .salePara .para2{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
-    margin-bottom:30px;
+    margin-bottom:1.875rem;
 }
 
 .saleTextDiv .btn{
-    width: 120px;
-    height:36px;
-    font-size: 15px;
+    width: 7.5rem;
+    height:2.25rem;
+    font-size: .9375rem;
     font-weight: 500;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:80px;
-    margin-right:335px;
-    border-radius: 10px;
-    border:3px solid #000000;
+    margin-top:5rem;
+    margin-right:20.9375rem;
+    border-radius: .625rem;
+    border:.1875rem solid #000000;
     &:hover{
         background-color: black;
         color:#EBD96B;
@@ -205,9 +205,9 @@
 
     .saleImage{
         
-        width:400px;
-        height:400px;
-        margin-top: 40px;
+        width:25rem;
+        height:25rem;
+        margin-top: 2.5rem;
 
     }
 
@@ -221,8 +221,8 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        gap: 0px;
-        padding-left:50px;
+        gap: 0rem;
+        padding-left:3.125rem;
         
     }
 
@@ -231,34 +231,34 @@
    
     
      .text .let h1{
-        font-size: 50px;
-        margin-right:0px;
+        font-size: 3.125rem;
+        margin-right:0rem;
         color: #000000;
         font-weight: 700;
        
         
     }
      .text  h1{
-        font-size: 50px;
+        font-size: 3.125rem;
         color: #000000;
         font-weight: 700;
-        margin-right:0px;
+        margin-right:0rem;
     }
     
     .text .let{
-        width:250px;
-        height:90px;
-        padding-left:0px; 
+        width:15.625rem;
+        height:5.625rem;
+        padding-left:0rem; 
         
     }
 
     
 .saleTextDiv .salePara{
-    font-size: 18px;
+    font-size: 1.125rem;
     
     text-align: center;
-    margin-top: 20px;
-    margin-right:0px;
+    margin-top: 1.25rem;
+    margin-right:0rem;
    
     
 }
@@ -270,27 +270,57 @@
 }
 
 .saleTextDiv .salePara .para1,.saleTextDiv .salePara .para2{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .saleTextDiv .salePara p{
-    font-size:19px;
+    font-size:1.1875rem;
 }
 
 .saleTextDiv .btn{
-    width: 120px;
-    height:36px;
-    font-size: 15px;
+    width: 7.5rem;
+    height:2.25rem;
+    font-size: .9375rem;
     font-weight: 500;
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:50px;
-    margin-right: 0px;
-    margin-left:130px;
+    margin-top:3.125rem;
+    margin-right: 0rem;
+    margin-left:8.125rem;
     
 }
 
 
+    .newArrival h1{
+        font-size: 1.7rem;
+    }
 
+    .newArrival .feather{
+        left:11.3rem;
+        top:10;
+    }
+
+    .newArrival .feather img{
+        width:2.5rem;
+        height:2.5rem;
+    }
+}
+
+
+@media (max-width: 390px) {
+
+    .newArrival h1{
+        font-size: 1.5rem;
+    }
+
+    .newArrival .feather{
+        left:10rem;
+        top:10;
+    }
+
+    .newArrival .feather img{
+        width:2.1875rem;
+        height:2.1875rem;
+    }
 }

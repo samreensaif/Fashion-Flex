@@ -1,19 +1,19 @@
 
 .sale{
 
-    margin-top: 100px;
-    width: 74.75rem;
+    
+    width: 100%;
     margin:auto;
-    height: 685px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #EBD96B;
+    gap:0px;
 }
 
 .saleImageDiv{
     width:50%;
-    height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,17 +50,18 @@
     
     height:500px;
     width:550px;
-    
-    
+   
 }
 
 .saleTextDiv{
     width:50%;
-    height: 100%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
     
 }
 
@@ -136,7 +137,7 @@
     margin-top:80px;
     margin-right:335px;
     border-radius: 10px;
-    border:3px solid #000000;
+    border:2px solid #000000;
     &:hover{
         background-color: black;
         color:#EBD96B;
@@ -150,6 +151,7 @@
 
     .sale{
         flex-direction: column;
+        margin-top:50px;
     }
 
     .sale .saleImageDiv{
@@ -177,7 +179,7 @@
         justify-content: space-evenly;
         align-items: center;
         gap: 0px;
-        padding-left:50px;
+        padding-left:40px;
         
     }
 
@@ -243,6 +245,99 @@
     margin-top:50px;
     margin-right: 0px;
     margin-left:130px;
+    
+}
+
+
+
+}
+@media (max-width: 390px) {
+
+
+
+    .sale .saleImageDiv{
+        width:70%;
+        height:50%;
+        
+    }
+
+       
+
+    .sale .saleTextDiv{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 0px;
+        padding-left:0px;
+             
+        
+    }
+
+    .sale .saleTextDiv{
+      
+        padding-left:0px;
+        
+    }
+
+   
+    
+     .text .let h1{
+        font-size: 38px;
+        margin-right:0px;
+        color: #000000;
+        font-weight: 700;
+       
+       
+        
+    }
+     .text  h1{
+        font-size: 38px;
+        color: #000000;
+        font-weight: 700;
+        margin-right:10px;
+        background-color: aqua;
+    }
+    
+    .text .let{
+        width:200px;
+        height:50px;
+        padding-left:0px; 
+        
+    }
+
+    
+.saleTextDiv .salePara{
+    font-size: 16px;
+    
+    text-align: center;
+    margin-top: 20px;
+    margin-right:0px;
+   
+    
+}
+
+
+
+.saleTextDiv .salePara .para1,.saleTextDiv .salePara .para2{
+    font-size: 17px;
+    
+}
+
+
+
+.saleTextDiv .btn{
+    width: 120px;
+    height:36px;
+    font-size: 15px;
+    font-weight: 500;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+    margin-right: 0px;
+    margin-left:80px;
     
 }
 

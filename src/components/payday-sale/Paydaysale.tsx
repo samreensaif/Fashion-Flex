@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './Paydaysale.module.css'
 import Image from 'next/image'
+import Link from 'next/link'
 
 function Paydaysale() {
   return (
@@ -51,7 +52,9 @@ function Paydaysale() {
                 <p>*Terms and conditions applied</p>
               </div>
               <div className={style.btn}>
+                <Link href="/shop">
                 <button>SHOP NOW</button>
+                </Link>
               </div>
             </div>
           </div>

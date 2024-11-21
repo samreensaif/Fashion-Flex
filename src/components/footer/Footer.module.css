@@ -1,9 +1,9 @@
 .footer{
-    width:74.75rem;
-    height:20.937rem;
+    width:100%;
     background-color: black;
     display:flex;
     margin: auto;
+    padding:50px 0;
 }
 
 .footer1{
@@ -51,7 +51,7 @@
 }
 
 .footer4{
-    margin-top:80px;
+    margin-top:0px;
 }
 
 

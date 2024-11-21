@@ -11,7 +11,7 @@ function Features() {
         <div className={style.container}>
           <div className={style.youngsFavourite}>
             <div>
-              <h1>Young&apos;s Favourite</h1>
+              <h1>YOUNG&apos;S FAVOURITE</h1>
             </div>
             <div className={style.feather}>
               <Image

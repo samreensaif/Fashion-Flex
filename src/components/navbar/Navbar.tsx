@@ -6,6 +6,7 @@ import { islandMoments, istokWeb } from "@/font";
 
 import Image from "next/image";
 import Link from "next/link";
+import { AnimatePresence, motion } from "framer-motion";
 
 function Navbar() {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
@@ -18,13 +19,23 @@ function Navbar() {
     <div>
       <nav className={style.nav}>
         <div className={style.logo}>
-          <Image src="/logo.png" alt="Image" width={96} height={96} />
+          <Image src="/logo.png" alt="Image" width={80} height={80} />
           <h1 className={islandMoments.className}>Fashion Flex.</h1>
         </div>
 
-        
+        <AnimatePresence>
         {isOpen == true ?(
-          <div className={`${style.links} ${style.adjust}`}>
+          <motion.div className={`${style.links} ${style.adjust}`}
+          
+          key={"adjust"}
+          initial={{opacity:0, width:0}} 
+          animate={{opacity:1, width:"50%"}}
+          exit={{opacity:0, width:0}} 
+          transition={{duration:2, type:"spring"}}
+          
+          
+          
+          >
           
           <ul>
             <li>
@@ -52,7 +63,7 @@ function Navbar() {
         
           <button>SIGN UP</button>
         
-      </div>
+      </motion.div>
         )
       :
       (<div className={`${style.links}`}>
@@ -84,8 +95,8 @@ function Navbar() {
         <button>SIGN UP</button>
       
     </div>)}
-        
-        <IoIosMenu size={60} className={style.menu} onClick={showFunc} />
+    </AnimatePresence>
+        <IoIosMenu size={40} className={style.menu} onClick={showFunc} />
       </nav>
     </div>
   );

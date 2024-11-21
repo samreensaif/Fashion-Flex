@@ -1,8 +1,8 @@
 
 
 .contactDiv{
-    width:74.75rem;
-    height:26.9375rem;
+    width:100%;
+    
     background-color: #e6c744;
     display:flex;
     flex-direction: column;
@@ -10,7 +10,8 @@
     align-items: center;
     margin: auto;
     position: relative;
-    margin-top:50px;
+    padding:50px 0;
+    
 }
 
  .h1{
@@ -24,6 +25,7 @@
 .p{
     font-size:24px;
     color:white;
+    margin:30px 0;
 }
 
 .contactDiv input{
@@ -50,7 +52,7 @@
     font-size: 16px;
     font-weight: bold;
     position: absolute;
-    left:670px;
+    left:760px;
     bottom:60px;
     transition: all 0.3s ease-in-out;
 
@@ -61,10 +63,101 @@
 
 
 @media (max-width: 768px) {
+
+    
     .contactDiv{
-        padding:0 20px;
+        padding:40px 20px;
         z-index: -1;
     }
+
+    .h1{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        
+    }
+    
+    .p{
+        font-size:22px;
+        color:white;
+        margin:20px 0;
+    }
+
+
+    .contactDiv input{
+        width: 400px;
+        height:50px;
+        border-radius: 10px;
+        padding-left:20px;
+        
+        
+    }
+    
+    .contactDiv input::placeholder{
+        font-size: 19px;
+        color:#7f7f7f;
+    }
+    
+    .contactDiv button{
+        width: 130px;
+        height:40px;
+       
+        font-size: 16px;
+        
+        left:430px;
+        bottom:45px;
+        
+    }
+    
+    
+
+
+}
+@media (max-width: 390px) {
+
+    
+    .contactDiv{
+        padding:40px 20px;
+        z-index: -1;
+    }
+
+   
+    
+    .p{
+        font-size:18px;
+        color:white;
+        margin:20px 0;
+        text-align: center;
+    }
+
+
+    .contactDiv input{
+        width: 350px;
+        height:50px;
+        border-radius: 10px;
+        padding-left:20px;
+        
+        
+    }
+    
+    .contactDiv input::placeholder{
+        font-size: 19px;
+        color:#7f7f7f;
+    }
+    
+    .contactDiv button{
+        width: 125px;
+        height:35px;
+       
+        font-size: 16px;
+        
+        left:230px;
+        bottom:48px;
+        
+    }
+    
+    
 
 
 }
