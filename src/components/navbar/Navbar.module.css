@@ -145,9 +145,32 @@
     }
 
     .adjust button{
-        width: 150px;
-        height:50px;
-        font-size: 20px;
+        width: 140px;
+        height:45px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 10px;
+        margin-bottom:20px;
+        border:.125rem solid #000000;
+        &:hover{
+            background-color: #EBD96B;
+            font-weight: 600;
+        }
+    }
+}
+
+
+@media (max-width:480px){
+    .adjust ul li{
+        font-size: 20px; 
+        font-weight: 600;
+    }
+
+
+    .adjust button{
+        width: 130px;
+        height:40px;
+        font-size: 16px;
         font-weight: 500;
         border-radius: 10px;
         margin-bottom:20px;
